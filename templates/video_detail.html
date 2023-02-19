@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block title %}
+    Channel Data
+{% endblock %}
+
+
+{% block content %}
+<style>
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+thead{background-color: gray;}
+
+</style>
+
+<div class="inline" class="text-center" >
+    <div style="float: left; width: 225px">
+        <form class="dark" action={{url_for("home_page")}}>
+            <button type="submit"  style="background-color:orange"><strong>Go Back</strong></button>
+        </form>
+    </div>
+
+</div>
+
+<table class="table table-hover table-light">
+
+      <thead style="color:white">
+        <tr >
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Views</th>
+            <th scope="col">Likes</th>
+
+        </tr>
+      </thead>
+
+      <tbody>
+      <form class="dark" method="POST" >
+
+          <tr >
+              <td>{{detail['title']}}</td>
+              <td>{{detail['desc']}}</td>
+              <td>{{detail['views']}}</td>
+              <td>{{detail['likes']}}</td>
+          </tr>
+
+      </form>
+      </tbody>
+</table>
+
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}
+    Channel Data
+{% endblock %}
+
+
+{% block content %}
+<style>
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+thead{background-color: gray;}
+
+</style>
+
+<div class="inline" class="text-center" >
+    <div style="float: left; width: 225px">
+        <form class="dark" action={{url_for("home_page")}}>
+            <button type="submit"  style="background-color:orange"><strong>Go Back</strong></button>
+        </form>
+    </div>
+</div>
+
+<table class="table table-hover table-light">
+
+      <thead style="color:white">
+        <tr >
+            <th scope="col">iNeuron</th>
+            <th scope="col">Krish</th>
+            <th scope="col">Collegewalla</th>
+
+        </tr>
+      </thead>
+
+
+      <tbody>
+      <form class="dark" method="POST" action={{url_for("load_video_detail")}}>
+
+          <tr >
+              <td>{{cdata[0]['ineuron']}}</td>
+              <td>{{cdata[0]['krish']}}</td>
+              <td>{{cdata[0]['college']}}</td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          <tr>
+              <td><label>Enter Youtube Video link: </label></td>
+              <td>
+                  <input name="vid_url" type="text" placeholder="Enter video link here" required/>
+              </td>
+              <td>
+                  <button type="submit"  style="background-color:pink" name="view_detail">
+                      <strong>View</strong>
+                  </button>
+              </td>
+          </tr>
+      </form>
+      </tbody>
+</table>
+
+{% endblock %}

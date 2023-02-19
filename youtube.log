@@ -1,0 +1,1300 @@
+2023-02-19 17:44:31,730:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:44:31,732:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:44:31] "GET /home_page HTTP/1.1" 200 -
+2023-02-19 17:44:33,105:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:44:33,107:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:44:33] "GET /home_page HTTP/1.1" 200 -
+2023-02-19 17:44:35,034:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:44:35,035:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:44:35] "GET /home_page HTTP/1.1" 200 -
+2023-02-19 17:44:36,290:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:44:36,292:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:44:36] "POST /home_page HTTP/1.1" 200 -
+2023-02-19 17:44:36,307:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:44:36,308:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:44:36,594:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:36,595:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:44:36,903:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:36,903:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:44:37,365:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 292712
+2023-02-19 17:44:37,671:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 259074
+2023-02-19 17:44:37,834:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 259076
+2023-02-19 17:44:37,995:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 259074
+2023-02-19 17:44:38,158:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 259074
+2023-02-19 17:44:38,320:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 259076
+2023-02-19 17:44:38,484:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 259074
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5174602164605553
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:39,135:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:44:39,136:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:44:39,136:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5174602164605553
+2023-02-19 17:44:39,136:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:39,136:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:39,136:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:39,145:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:39,145:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:44:39,390:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:39,390:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:44:39,714:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:39,714:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:44:40,172:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 291553
+2023-02-19 17:44:40,471:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 258435
+2023-02-19 17:44:40,631:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 258437
+2023-02-19 17:44:40,793:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 258435
+2023-02-19 17:44:40,955:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 258435
+2023-02-19 17:44:41,119:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 258437
+2023-02-19 17:44:41,282:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 258435
+2023-02-19 17:44:41,921:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:41,921:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:41,921:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:41,921:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:44:41,921:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:44:41,921:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5208769527805733
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5208769527805733
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:41,922:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:41,930:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:41,937:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:44:42,198:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:42,198:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:44:42,555:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:42,556:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:44:43,798:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48496262433695214
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:44:43,799:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:44:43,806:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:43,806:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:44:44,075:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:44,075:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:44:44,486:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:44,486:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:44:45,759:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:44:45,759:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:44:45,759:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:44:45,759:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:44:45,759:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:44:45,759:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:44:45,759:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4806126942165516
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:44:45,760:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:44:45,769:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:45,781:ERROR:root:'richItemRenderer'
+2023-02-19 17:44:45,781:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:44:46,023:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:46,023:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:44:46,415:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:46,415:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:44:46,873:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 292053
+2023-02-19 17:44:47,173:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 258565
+2023-02-19 17:44:47,335:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 258567
+2023-02-19 17:44:47,495:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 258565
+2023-02-19 17:44:47,652:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 258565
+2023-02-19 17:44:47,817:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 258567
+2023-02-19 17:44:48,006:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 258565
+2023-02-19 17:44:49,049:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:49,049:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:49,049:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48829269472903536
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48829269472903536
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:49,050:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:49,060:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:49,060:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:44:49,335:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:49,335:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:44:49,739:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:49,739:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:44:50,200:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 293142
+2023-02-19 17:44:50,500:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 259744
+2023-02-19 17:44:50,657:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 259746
+2023-02-19 17:44:50,811:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 259744
+2023-02-19 17:44:50,965:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 259744
+2023-02-19 17:44:51,119:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 259746
+2023-02-19 17:44:51,274:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 259744
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.49101470489016913
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:44:52,201:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.49101470489016913
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:52,202:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:44:52,212:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:44:52,223:ERROR:root:'richItemRenderer'
+2023-02-19 17:44:52,224:INFO:root:[{'ineuron': 6, 'krish': None, 'college': None}]
+2023-02-19 17:44:52,224:ERROR:application:Exception on /load_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2170, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a bool.
+2023-02-19 17:44:52,225:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:44:52] "[35m[1mGET /load_data HTTP/1.1[0m" 500 -
+2023-02-19 17:44:52,237:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:44:52] "GET /channel_data HTTP/1.1" 200 -
+2023-02-19 17:47:50,860:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:47:50,861:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:47:51,137:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:47:51,137:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:47:52,261:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:47:52,261:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:47:53,750:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 911816
+2023-02-19 17:47:54,052:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 258222
+2023-02-19 17:47:54,215:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 258224
+2023-02-19 17:47:54,376:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 258222
+2023-02-19 17:47:54,537:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 258222
+2023-02-19 17:47:54,699:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 258224
+2023-02-19 17:47:54,860:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 258222
+2023-02-19 17:47:57,117:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:47:57,117:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:47:57,117:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.37660247744259745
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.37660247744259745
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:47:57,118:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:47:57,133:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:47:57,154:INFO:root:Database
+2023-02-19 17:47:57,154:INFO:root:{'channel_id': 'UCb1GdqUqArXMQ3RS86lqqOw', 'title': 'Successful Transition from non tech to Data Science | iNeuron | Success story', 'desc': '#oneneuron #techneuron #ineuronWe have launched our OTT platform for education OneNeuron where we have 100+ course in all technologies under one subscription...', 'views': '9550', 'likes': '282 likes'}
+2023-02-19 17:48:05,705:INFO:root:Connected to MySQL Database...
+2023-02-19 17:48:06,027:INFO:root:Created Database...youtubeDb
+2023-02-19 17:48:06,185:INFO:root:Using Database...youtubeDb
+2023-02-19 17:48:06,348:INFO:root:Created Table...video
+2023-02-19 17:48:06,348:INFO:root:Total data to Insert: {'channel_id': 'UCb1GdqUqArXMQ3RS86lqqOw', 'title': 'Successful Transition from non tech to Data Science | iNeuron | Success story', 'desc': '#oneneuron #techneuron #ineuronWe have launched our OTT platform for education OneNeuron where we have 100+ course in all technologies under one subscription...', 'views': '9550', 'likes': '282 likes'}
+2023-02-19 17:48:06,830:INFO:root:Total data Inserted in Table: 1
+2023-02-19 17:48:06,831:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:48:06] "POST /load_video_detail HTTP/1.1" 200 -
+2023-02-19 17:48:36,707:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:48:36,708:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:48:36] "GET /home_page HTTP/1.1" 200 -
+2023-02-19 17:48:40,713:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:48:40,714:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:48:40] "POST /home_page HTTP/1.1" 200 -
+2023-02-19 17:48:40,726:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:48:40,726:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:48:41,008:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:41,009:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:48:41,413:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:41,413:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:48:41,878:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 291894
+2023-02-19 17:48:42,182:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 258436
+2023-02-19 17:48:42,344:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 258438
+2023-02-19 17:48:42,505:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 258436
+2023-02-19 17:48:42,666:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 258436
+2023-02-19 17:48:42,830:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 258438
+2023-02-19 17:48:42,994:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 258436
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:43,615:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.519840618304758
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.519840618304758
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:43,616:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:43,624:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:43,624:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:48:43,879:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:43,879:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:48:44,304:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:44,304:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:48:44,763:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 291153
+2023-02-19 17:48:45,061:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257567
+2023-02-19 17:48:45,224:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257569
+2023-02-19 17:48:45,384:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257567
+2023-02-19 17:48:45,546:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257567
+2023-02-19 17:48:45,710:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257569
+2023-02-19 17:48:45,877:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257567
+2023-02-19 17:48:46,511:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:46,511:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:46,511:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:46,511:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5187194364056948
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5187194364056948
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:46,512:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:46,522:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:46,527:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:48:46,791:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:46,791:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:48:47,321:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:47,321:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:48:48,582:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:48:48,582:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:48:48,582:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:48:48,582:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48176883852093766
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:48:48,583:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:48:48,592:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:48,592:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:48:48,913:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:48,913:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:48:49,659:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:49,660:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:48:50,875:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:48:50,875:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48050921073736036
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:48:50,876:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:48:50,885:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:50,892:ERROR:root:'richItemRenderer'
+2023-02-19 17:48:50,892:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:48:51,162:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:51,162:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:48:51,715:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:51,715:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:48:52,176:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 293463
+2023-02-19 17:48:52,476:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 260283
+2023-02-19 17:48:52,638:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 260285
+2023-02-19 17:48:52,801:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 260283
+2023-02-19 17:48:52,962:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 260283
+2023-02-19 17:48:53,124:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 260285
+2023-02-19 17:48:53,285:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 260283
+2023-02-19 17:48:54,271:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:54,271:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:54,271:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:54,271:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:48:54,271:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:48:54,271:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4835261687979337
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4835261687979337
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:54,272:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:54,282:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:54,282:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:48:54,553:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:54,553:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:48:55,138:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:55,138:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:48:55,597:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 290882
+2023-02-19 17:48:55,899:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257360
+2023-02-19 17:48:56,061:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257362
+2023-02-19 17:48:56,223:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257360
+2023-02-19 17:48:56,385:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257360
+2023-02-19 17:48:56,546:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257362
+2023-02-19 17:48:56,705:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257360
+2023-02-19 17:48:57,688:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4869883793912045
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4869883793912045
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:57,689:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:48:57,697:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:48:57,709:ERROR:root:'richItemRenderer'
+2023-02-19 17:48:57,710:INFO:root:[{'ineuron': 6, 'krish': None, 'college': None}]
+2023-02-19 17:48:57,711:ERROR:application:Exception on /load_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2170, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a bool.
+2023-02-19 17:48:57,712:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:48:57] "[35m[1mGET /load_data HTTP/1.1[0m" 500 -
+2023-02-19 17:48:57,724:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:48:57] "GET /channel_data HTTP/1.1" 200 -
+2023-02-19 17:49:03,547:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:49:03,549:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:49:03,821:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:49:03,821:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:49:04,406:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:49:04,406:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:49:05,096:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 433576
+2023-02-19 17:49:05,397:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 258540
+2023-02-19 17:49:05,562:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 258542
+2023-02-19 17:49:05,725:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 258540
+2023-02-19 17:49:05,884:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 258540
+2023-02-19 17:49:06,040:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 258542
+2023-02-19 17:49:06,196:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 258540
+2023-02-19 17:49:07,438:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:49:07,438:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:49:07,438:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.04283912743677054
+2023-02-19 17:49:07,438:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.034299506671954486
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.20651593994823655
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.020055579435597895
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.03864033034999677
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.17226306264585042
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.46895205798965234
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.04283912743677054
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.034299506671954486
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.20651593994823655
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.020055579435597895
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.03864033034999677
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.17226306264585042
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.46895205798965234
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:49:07,439:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:49:07,450:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:49:07,463:INFO:root:Database
+2023-02-19 17:49:07,463:INFO:root:{'channel_id': 'UC-GdxiLUc6zMJiptVVlxpww', 'title': '4 OUT OF 5…INDIA DEMOLISH AUST AGAIN…JADEJA’S JADOO..KABHI BROAD KABHI ANDERSON..RAMIZ, WASIM AT ODD', 'desc': '#INDvAUS #indiavaustralia #ENGvNZ #ravindrajadeja #ravichandranashwin #rohitsharma #pujara #patcummins #stevesmith #wasimakram #ramizraja #ramizspeaks #james...', 'views': '9092', 'likes': '1,736 likes'}
+2023-02-19 17:49:08,111:INFO:root:Connected to MySQL Database...
+2023-02-19 17:49:08,431:INFO:root:Created Database...youtubeDb
+2023-02-19 17:49:08,587:INFO:root:Using Database...youtubeDb
+2023-02-19 17:49:08,744:INFO:root:Created Table...video
+2023-02-19 17:49:08,744:INFO:root:Total data to Insert: {'channel_id': 'UC-GdxiLUc6zMJiptVVlxpww', 'title': '4 OUT OF 5…INDIA DEMOLISH AUST AGAIN…JADEJA’S JADOO..KABHI BROAD KABHI ANDERSON..RAMIZ, WASIM AT ODD', 'desc': '#INDvAUS #indiavaustralia #ENGvNZ #ravindrajadeja #ravichandranashwin #rohitsharma #pujara #patcummins #stevesmith #wasimakram #ramizraja #ramizspeaks #james...', 'views': '9092', 'likes': '1,736 likes'}
+2023-02-19 17:49:09,226:INFO:root:Total data Inserted in Table: 1
+2023-02-19 17:49:09,227:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:49:09] "POST /load_video_detail HTTP/1.1" 200 -
+2023-02-19 17:49:26,178:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:49:26,180:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:49:26] "GET /home_page HTTP/1.1" 200 -
+2023-02-19 17:51:15,005:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:51:15,005:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:51:15] "POST /home_page HTTP/1.1" 200 -
+2023-02-19 17:51:15,016:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:51:15,017:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:51:15,461:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:15,461:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:51:15,715:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:15,715:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:51:16,173:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 291246
+2023-02-19 17:51:16,471:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257788
+2023-02-19 17:51:16,631:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257790
+2023-02-19 17:51:16,792:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257788
+2023-02-19 17:51:16,951:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257788
+2023-02-19 17:51:17,111:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257790
+2023-02-19 17:51:17,271:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257788
+2023-02-19 17:51:17,906:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:17,906:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5217712153603357
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5217712153603357
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:17,907:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:17,915:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:17,915:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:51:18,212:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:18,212:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:51:18,523:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:18,523:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:51:18,981:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 292081
+2023-02-19 17:51:19,289:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 258711
+2023-02-19 17:51:19,450:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 258713
+2023-02-19 17:51:19,610:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 258711
+2023-02-19 17:51:19,772:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 258711
+2023-02-19 17:51:19,933:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 258713
+2023-02-19 17:51:20,093:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 258711
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5222411134204037
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:20,722:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5222411134204037
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:20,723:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:20,731:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:20,737:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:51:20,969:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:20,969:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:51:21,886:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:21,886:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:51:23,118:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48466616748066405
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:51:23,119:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:51:23,126:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:23,126:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:51:23,418:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:23,418:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:51:23,865:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:23,865:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:51:25,101:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:51:25,101:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:51:25,101:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:51:25,101:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:51:25,101:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48332578183534725
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:51:25,102:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:51:25,109:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:25,137:ERROR:root:'richItemRenderer'
+2023-02-19 17:51:25,138:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:51:25,421:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:25,421:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:51:25,861:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:25,861:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:51:26,321:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 290879
+2023-02-19 17:51:26,621:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257843
+2023-02-19 17:51:26,782:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257845
+2023-02-19 17:51:26,943:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257843
+2023-02-19 17:51:27,104:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257843
+2023-02-19 17:51:27,265:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257845
+2023-02-19 17:51:27,422:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257843
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48751868024597866
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:28,451:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48751868024597866
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:28,452:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:28,460:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:28,461:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:51:28,697:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:28,697:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:51:29,094:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:29,094:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:51:29,550:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 290532
+2023-02-19 17:51:29,850:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257048
+2023-02-19 17:51:30,009:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257050
+2023-02-19 17:51:30,169:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257048
+2023-02-19 17:51:30,329:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257048
+2023-02-19 17:51:30,487:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257050
+2023-02-19 17:51:30,642:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257048
+2023-02-19 17:51:31,590:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48570542339275985
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48570542339275985
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:31,591:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:31,592:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:51:31,600:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:51:31,613:ERROR:root:'richItemRenderer'
+2023-02-19 17:51:31,613:INFO:root:[{'ineuron': 6, 'krish': None, 'college': None}]
+2023-02-19 17:51:31,614:ERROR:application:Exception on /load_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2170, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a bool.
+2023-02-19 17:51:31,614:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:51:31] "[35m[1mGET /load_data HTTP/1.1[0m" 500 -
+2023-02-19 17:51:31,626:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:51:31] "GET /channel_data HTTP/1.1" 200 -
+2023-02-19 17:52:48,064:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:52:48,066:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:52:48,364:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:52:48,364:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:52:48,891:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:52:48,891:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:52:49,391:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 274670
+2023-02-19 17:52:49,699:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 259001
+2023-02-19 17:52:49,859:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 259003
+2023-02-19 17:52:50,020:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 259001
+2023-02-19 17:52:50,186:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 259001
+2023-02-19 17:52:50,349:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 259003
+2023-02-19 17:52:50,510:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 259001
+2023-02-19 17:52:50,862:DEBUG:chardet.charsetprober:IBM855 confidence = 0.02192188807312082, below negative shortcut threshhold 0.05
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.07481918544416223
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.11304425556499746
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.49138228138801787
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:IBM855 not active
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.07370744778443006
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.3829304500447972
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4589627428485378
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:52:51,760:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.07481918544416223
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.11304425556499746
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.49138228138801787
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:IBM855 not active
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.07370744778443006
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.3829304500447972
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4589627428485378
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:52:51,761:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:52:51,786:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:52:51,799:INFO:root:Database
+2023-02-19 17:52:51,799:INFO:root:{'channel_id': 'UC1bUswUinAEFYaRQFvAKjPA', 'title': 'BEST OF THE WEEK | SUNDAY SPECIAL: THE CHANAKYA DIALOGUES with Major Gaurav Arya', 'desc': 'BEST OF THE WEEK | SUNDAY SPECIAL: THE CHANAKYA DIALOGUES with Major Gaurav Arya\u0440\u0434\u0424\u0440\u0434\u2591 \u0440\u0434\u0415\u0440\u0434\u0438\u0440\u0435\u041d\u0440\u0434\u043f \u0440\u0434\u2555\u0440\u0434\u043d\u0440\u0435\u0410 \u0440\u0434\u041f\u0440\u0434\u043a\u0440\u0434\u2510\u0440\u0434\u2555\u0440\u0435\u041b\u0440\u0434\u0431 \u0440\u0434\u0436\u0440\u0435\u0417\u0440\u0434\u0426\u0440\u0434\u0438\u0440\u0435\u0417 \u0440\u0434\u0425\u0440\u0435\u0417 \u0440\u0434\u2593\u0440\u0434\u2510\u0440\u0434\u041f \u0440\u0434\u2593\u0440\u0435\u0419\u0440\u0434\u0427 \u0440\u0434\u0417\u0440\u0434\u0438 \u0440\u0434\u0425\u0440\u0434\u2591\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u0421\u0440\u0434\u043b\u0440\u0434\u2510\u0440\u0434\u2562\u0440\u0434\u2510\u0440\u0434\u043f\u0440\u0434\u2593 The Chanakya Dialogues \u0440\u0434\u0421\u0440\u0434\u0438...', 'views': '124813', 'likes': '9,999 likes'}
+2023-02-19 17:52:52,440:INFO:root:Connected to MySQL Database...
+2023-02-19 17:52:52,747:INFO:root:Created Database...youtubeDb
+2023-02-19 17:52:52,902:INFO:root:Using Database...youtubeDb
+2023-02-19 17:52:53,060:INFO:root:Created Table...video
+2023-02-19 17:52:53,060:INFO:root:Total data to Insert: {'channel_id': 'UC1bUswUinAEFYaRQFvAKjPA', 'title': 'BEST OF THE WEEK | SUNDAY SPECIAL: THE CHANAKYA DIALOGUES with Major Gaurav Arya', 'desc': 'BEST OF THE WEEK | SUNDAY SPECIAL: THE CHANAKYA DIALOGUES with Major Gaurav Arya\u0440\u0434\u0424\u0440\u0434\u2591 \u0440\u0434\u0415\u0440\u0434\u0438\u0440\u0435\u041d\u0440\u0434\u043f \u0440\u0434\u2555\u0440\u0434\u043d\u0440\u0435\u0410 \u0440\u0434\u041f\u0440\u0434\u043a\u0440\u0434\u2510\u0440\u0434\u2555\u0440\u0435\u041b\u0440\u0434\u0431 \u0440\u0434\u0436\u0440\u0435\u0417\u0440\u0434\u0426\u0440\u0434\u0438\u0440\u0435\u0417 \u0440\u0434\u0425\u0440\u0435\u0417 \u0440\u0434\u2593\u0440\u0434\u2510\u0440\u0434\u041f \u0440\u0434\u2593\u0440\u0435\u0419\u0440\u0434\u0427 \u0440\u0434\u0417\u0440\u0434\u0438 \u0440\u0434\u0425\u0440\u0434\u2591\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u0421\u0440\u0434\u043b\u0440\u0434\u2510\u0440\u0434\u2562\u0440\u0434\u2510\u0440\u0434\u043f\u0440\u0434\u2593 The Chanakya Dialogues \u0440\u0434\u0421\u0440\u0434\u0438...', 'views': '124813', 'likes': '9,999 likes'}
+2023-02-19 17:52:53,517:INFO:root:Total data Inserted in Table: 1
+2023-02-19 17:52:53,517:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:52:53] "POST /load_video_detail HTTP/1.1" 200 -
+2023-02-19 17:53:16,723:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:53:16,725:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:53:16] "GET /home_page HTTP/1.1" 200 -
+2023-02-19 17:53:18,086:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:53:18,087:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:53:18] "POST /home_page HTTP/1.1" 200 -
+2023-02-19 17:53:18,099:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:53:18,101:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:53:18,408:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:18,408:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:53:18,708:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:18,708:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:53:19,161:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 290335
+2023-02-19 17:53:19,460:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257289
+2023-02-19 17:53:19,620:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257291
+2023-02-19 17:53:19,780:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257289
+2023-02-19 17:53:19,940:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257289
+2023-02-19 17:53:20,101:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257291
+2023-02-19 17:53:20,261:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257289
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5220490967562063
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5220490967562063
+2023-02-19 17:53:20,913:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:20,914:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:20,914:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:20,923:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:20,923:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:53:21,199:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:21,199:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:53:21,452:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:21,452:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:53:21,892:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 291103
+2023-02-19 17:53:22,200:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257625
+2023-02-19 17:53:22,361:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257627
+2023-02-19 17:53:22,522:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257625
+2023-02-19 17:53:22,684:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257625
+2023-02-19 17:53:22,845:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257627
+2023-02-19 17:53:23,006:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257625
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:23,631:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5227568076640943
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01803900695959385
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.07733469012342628
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.09681288216219645
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5227568076640943
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:23,632:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:23,641:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:23,646:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:53:23,929:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:23,929:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:53:24,259:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:24,259:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4885457939699079
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:53:25,482:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:53:25,483:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:53:25,483:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:53:25,483:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:53:25,483:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:53:25,483:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:53:25,489:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:25,489:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:53:25,766:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:25,766:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:53:26,146:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:26,146:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:53:27,355:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:53:27,355:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:53:27,355:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:53:27,355:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4877238627088879
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+2023-02-19 17:53:27,356:DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+2023-02-19 17:53:27,364:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:27,372:ERROR:root:'richItemRenderer'
+2023-02-19 17:53:27,373:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:53:27,705:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:27,705:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:53:28,257:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:28,257:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:53:28,722:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 293522
+2023-02-19 17:53:29,024:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 260052
+2023-02-19 17:53:29,187:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 260054
+2023-02-19 17:53:29,348:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 260052
+2023-02-19 17:53:29,512:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 260052
+2023-02-19 17:53:29,675:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 260054
+2023-02-19 17:53:29,835:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 260052
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4800906388326178
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:53:30,814:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4800906388326178
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:30,815:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:30,825:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:30,825:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:53:31,122:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:31,122:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:53:31,535:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:31,535:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:53:31,989:DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 291290
+2023-02-19 17:53:32,288:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 257874
+2023-02-19 17:53:32,448:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 257876
+2023-02-19 17:53:32,608:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 257874
+2023-02-19 17:53:32,768:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 257874
+2023-02-19 17:53:32,929:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 257876
+2023-02-19 17:53:33,083:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 257874
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48269396255413977
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:34,021:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.03460858904605169
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.23654845532083713
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.00928894402477276
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.24145897123479385
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.48269396255413977
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:34,022:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:34,030:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:34,041:ERROR:root:'richItemRenderer'
+2023-02-19 17:53:34,041:INFO:root:[{'ineuron': 6, 'krish': None, 'college': None}]
+2023-02-19 17:53:34,042:ERROR:application:Exception on /load_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2170, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a bool.
+2023-02-19 17:53:34,042:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:53:34] "[35m[1mGET /load_data HTTP/1.1[0m" 500 -
+2023-02-19 17:53:34,055:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:53:34] "GET /channel_data HTTP/1.1" 200 -
+2023-02-19 17:53:38,555:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:53:38,556:DEBUG:YoutubeCrawler:Getting Webpage...
+2023-02-19 17:53:38,846:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:38,847:DEBUG:YoutubeCrawler:Reading Webpage...
+2023-02-19 17:53:39,459:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:39,459:DEBUG:YoutubeCrawler:Converting Webpage to HTML...
+2023-02-19 17:53:39,948:DEBUG:chardet.charsetprober:CP932 Japanese prober hit error at byte 273986
+2023-02-19 17:53:40,246:DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 258643
+2023-02-19 17:53:40,408:DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 258645
+2023-02-19 17:53:40,567:DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 258643
+2023-02-19 17:53:40,729:DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 258643
+2023-02-19 17:53:40,890:DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 258645
+2023-02-19 17:53:41,051:DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 258643
+2023-02-19 17:53:41,393:DEBUG:chardet.charsetprober:IBM855 confidence = 0.02103769642724921, below negative shortcut threshhold 0.05
+2023-02-19 17:53:42,248:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:42,248:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:42,248:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.044837247355841416
+2023-02-19 17:53:42,248:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.09715016466342757
+2023-02-19 17:53:42,248:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.5318895350370306
+2023-02-19 17:53:42,248:DEBUG:chardet.charsetprober:IBM855 not active
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.04454050190658357
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.4155553902108055
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4592127199842014
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.044837247355841416
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.09715016466342757
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.5318895350370306
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:IBM855 not active
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.04454050190658357
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.4155553902108055
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.4592127199842014
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:42,249:DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+2023-02-19 17:53:42,260:DEBUG:YoutubeCrawler:Done
+2023-02-19 17:53:42,271:INFO:root:Database
+2023-02-19 17:53:42,271:INFO:root:{'channel_id': 'UCmkmN_OMZP8pXmjvN8fNY7w', 'title': '\u0440\u0434\u043a\u0440\u0434\u0412\u0440\u0434\u042c\u0440\u0434\u255b\u0440\u0434\u043c \u0440\u0434\u043e\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u043c\u0440\u0435\u0410\u0440\u0434\u042c\u0440\u0435\u0417\u0440\u0434\u043a\u0440\u0435\u0410 \u0440\u0434\u043e\u0440\u0434\u042c\u0440\u0434\u043c\u0440\u0435\u0412\u0440\u0434\u0434\u0440\u0435\u0410 \u0440\u0434\u2555\u0440\u0435\u0417 \u0440\u0434\u043a\u0440\u0435\u0418\u0440\u0434\u2591 \u0440\u0434\u042c\u0440\u0434\u043e\u0440\u0434\u255b \u0440\u0434\u2591\u0440\u0434\u2563\u0440\u0435\u0410 \u0440\u0434\u2563\u0440\u0435\u0418 | BJP will play big role in Punjab Politics | PM MODI', 'desc': '\u0440\u0434\u0425\u0440\u0435\u041d\u0440\u0434\u043f\u0440\u0434\u255b \u0440\u0434\u043a\u0440\u0434\u0412\u0440\u0434\u042c\u0440\u0434\u255b\u0440\u0434\u043c \u0440\u0434\u043e\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u0416\u0440\u0434\u043a \u0440\u0434\u0424\u0440\u0434\u2591 \u0440\u0434\u043d\u0440\u0434\u255b\u0440\u0434\u042c\u0440\u0434\u043a\u0440\u0434\u255b \u0440\u0434\u0425\u0440\u0435\u0417 \u0440\u0434\u043c\u0440\u0435\u0410\u0440\u0434\u042a 2024 \u0440\u0434\u0425\u0440\u0434\u255b \u0440\u0434\u042a\u0440\u0435\u0411\u0440\u0434\u0438\u0440\u0434\u255b\u0440\u0434\u2561 \u0440\u0434\u2563\u0440\u0435\u041b\u0440\u0434\u0427\u0440\u0434\u255b? \u0440\u0434\u043a\u0440\u0434\u0412\u0440\u0434\u042c\u0440\u0434\u255b\u0440\u0434\u043c \u0440\u0434\u043e\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u043c\u0440\u0435\u0410\u0440\u0434\u042c\u0440\u0435\u0417\u0440\u0434\u043a\u0440\u0435\u0410 \u0440\u0434\u043e\u0440\u0434\u042c\u0440\u0434\u043c\u0440\u0435\u0412\u0440\u0434\u0434\u0440\u0435\u0410 \u0440\u0434\u2555\u0440\u0435\u0417 \u0440\u0434\u043a\u0440\u0435\u0418\u0440\u0434\u2591 \u0440\u0434\u042c\u0440\u0434\u043e\u0440\u0434\u255b \u0440\u0434\u2591\u0440\u0434\u2563\u0440\u0435\u0410 \u0440\u0434\u2563\u0440\u0435\u0418...!Plz show your support: Like, Subscribe & Share!--Plz suppo...', 'views': '3847', 'likes': '949 likes'}
+2023-02-19 17:53:42,922:INFO:root:Connected to MySQL Database...
+2023-02-19 17:53:43,236:INFO:root:Created Database...youtubeDb
+2023-02-19 17:53:43,413:INFO:root:Using Database...youtubeDb
+2023-02-19 17:53:43,570:INFO:root:Created Table...video
+2023-02-19 17:53:43,570:INFO:root:Total data to Insert: {'channel_id': 'UCmkmN_OMZP8pXmjvN8fNY7w', 'title': '\u0440\u0434\u043a\u0440\u0434\u0412\u0440\u0434\u042c\u0440\u0434\u255b\u0440\u0434\u043c \u0440\u0434\u043e\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u043c\u0440\u0435\u0410\u0440\u0434\u042c\u0440\u0435\u0417\u0440\u0434\u043a\u0440\u0435\u0410 \u0440\u0434\u043e\u0440\u0434\u042c\u0440\u0434\u043c\u0440\u0435\u0412\u0440\u0434\u0434\u0440\u0435\u0410 \u0440\u0434\u2555\u0440\u0435\u0417 \u0440\u0434\u043a\u0440\u0435\u0418\u0440\u0434\u2591 \u0440\u0434\u042c\u0440\u0434\u043e\u0440\u0434\u255b \u0440\u0434\u2591\u0440\u0434\u2563\u0440\u0435\u0410 \u0440\u0434\u2563\u0440\u0435\u0418 | BJP will play big role in Punjab Politics | PM MODI', 'desc': '\u0440\u0434\u0425\u0440\u0435\u041d\u0440\u0434\u043f\u0440\u0434\u255b \u0440\u0434\u043a\u0440\u0434\u0412\u0440\u0434\u042c\u0440\u0434\u255b\u0440\u0434\u043c \u0440\u0434\u043e\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u0416\u0440\u0434\u043a \u0440\u0434\u0424\u0440\u0434\u2591 \u0440\u0434\u043d\u0440\u0434\u255b\u0440\u0434\u042c\u0440\u0434\u043a\u0440\u0434\u255b \u0440\u0434\u0425\u0440\u0435\u0417 \u0440\u0434\u043c\u0440\u0435\u0410\u0440\u0434\u042a 2024 \u0440\u0434\u0425\u0440\u0434\u255b \u0440\u0434\u042a\u0440\u0435\u0411\u0440\u0434\u0438\u0440\u0434\u255b\u0440\u0434\u2561 \u0440\u0434\u2563\u0440\u0435\u041b\u0440\u0434\u0427\u0440\u0434\u255b? \u0440\u0434\u043a\u0440\u0434\u0412\u0440\u0434\u042c\u0440\u0434\u255b\u0440\u0434\u043c \u0440\u0434\u043e\u0440\u0435\u0417\u0440\u0434\u0412 \u0440\u0434\u043c\u0440\u0435\u0410\u0440\u0434\u042c\u0440\u0435\u0417\u0440\u0434\u043a\u0440\u0435\u0410 \u0440\u0434\u043e\u0440\u0434\u042c\u0440\u0434\u043c\u0440\u0435\u0412\u0440\u0434\u0434\u0440\u0435\u0410 \u0440\u0434\u2555\u0440\u0435\u0417 \u0440\u0434\u043a\u0440\u0435\u0418\u0440\u0434\u2591 \u0440\u0434\u042c\u0440\u0434\u043e\u0440\u0434\u255b \u0440\u0434\u2591\u0440\u0434\u2563\u0440\u0435\u0410 \u0440\u0434\u2563\u0440\u0435\u0418...!Plz show your support: Like, Subscribe & Share!--Plz suppo...', 'views': '3847', 'likes': '949 likes'}
+2023-02-19 17:53:44,046:INFO:root:Total data Inserted in Table: 1
+2023-02-19 17:53:44,047:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:53:44] "POST /load_video_detail HTTP/1.1" 200 -
+2023-02-19 17:53:58,833:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-19 17:53:58,835:INFO:werkzeug:127.0.0.1 - - [19/Feb/2023 17:53:58] "GET /home_page HTTP/1.1" 200 -
